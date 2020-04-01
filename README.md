@@ -76,6 +76,28 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 
 ---
 
+## :phone: Mobile :heavy_check_mark:
+
+<h1 align="center">
+    <img alt="Mobile" title="Mobile" src=".github/Mobile.gif" width="250px" />
+</h1>
+
+1. ```npm install @react-navigation/native``` - rotas
+
+2. ```expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view```
+
+3. ```npm install @react-navigation/stack```
+
+4. ```expo install expo-constants```
+
+5. ```expo install expo-mail-composer```
+
+6. ```npm install axios = conexão com api```
+
+7. ```npm install intl```
+
+---
+
 ## :page_facing_up: Banco de Dados
 O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário aplicar o knex.
 
@@ -139,6 +161,30 @@ O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário 
     const body = request.body
 ```
 ---
+
+### Formatação de Moedas
+- **ReactJS**:
+    ```javascript
+        {Intl.NumberFormat('pt-BR', {
+            style: 'currency', 
+            currency: 'BRL'
+        }).format(incident.value)}
+    ```
+    
+  - **React Native**:
+    - Dentro do App.js:
+    ```javascript
+        import 'intl';
+        import 'intl/locale-data/jsonp/pt-BR';
+    ``` 
+    
+    - No arquivo onde será formatado o valor:
+    ```javascript
+        {Intl.NumberFormat('pt-BR', {
+            style: 'currency', 
+            currency: 'BRL'
+        }).format(incident.value)}
+    ```
 
 ## :memo: License
 
