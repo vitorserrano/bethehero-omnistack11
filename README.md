@@ -26,6 +26,21 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 
 ---
 
+## :page_with_curl: Como Usar
+1. **Back-end** ```bethehero-omnistack11/backebd```
+    - ```npm install```
+    - ```npm start``` `
+    
+2. **Front-end** ```bethehero-omnistack11/frontend```
+    - ```npm install```
+    - ```npm start``` `
+    
+3. **Mobile** ```bethehero-omnistack11/mobile```
+    - ```npm install```
+    - ```npm start```
+
+---
+
 ## :page_facing_up: Funcionalidades
 - Login da ONG
 - Logout da ONG
