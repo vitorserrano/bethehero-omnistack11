@@ -10,7 +10,6 @@
     <a href="https://insomnia.rest/run/?label=Semana%20OmniStack%2011&uri=https%3A%2F%2Fgithub.com%2Fvitorserrano%2Fbethehero-omnistack11%2Fblob%2Fmaster%2Fbackend%2FInsomnia_2020-03-30.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-
 ## :rocket: Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias
 
@@ -19,27 +18,25 @@ Este projeto foi desenvolvido com as seguintes tecnologias
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
----
-
-## :page_with_curl: Projeto
+## :computer: Projeto
 O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/) que visa conectar pessoas dispostas a ajudar ONGs.
 
----
-
 ## :page_with_curl: Como Usar
-1. **Back-end** ```bethehero-omnistack11/backend```
+- **Clone o repositório** `gt clone https://github.com/vitorserrano/bethehero-omnist`
+- **Back-end** 
+    - ```cd backend```
     - ```npm install```
     - ```npm start``` `
     
-2. **Front-end** ```bethehero-omnistack11/frontend```
+- **Front-end** 
+    - ```cd frontend```
     - ```npm install```
     - ```npm start``` `
     
-3. **Mobile** ```bethehero-omnistack11/mobile```
+- **Mobile** 
+    - ```cd mobile```
     - ```npm install```
     - ```npm start```
-
----
 
 ## :page_facing_up: Funcionalidades
 - Login da ONG
@@ -50,8 +47,6 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 - Listar casos específicos de uma ONG
 - Listar todos os casos
 - Entrar em contato com a ONG
-
----
 
 ## :page_facing_up: Back-End
 1. ```npm init -y``` -> criar arquivos
@@ -70,9 +65,6 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 
 5.  ```npm install cors```
 
-
----
-
 ## :computer: Front-End Web :heavy_check_mark:
 
 <h1 align="center">
@@ -88,8 +80,6 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 4. Rotas com ReactJS -> ```npm install react-router-dom```
 
 5. Operações com a API -> ```npm install axios```
-
----
 
 ## :phone: Mobile :heavy_check_mark:
 
@@ -110,8 +100,6 @@ O Be The Hero é um projeto criado pela [Rocketseat](https://rocketseat.com.br/)
 6. ```npm install axios = conexão com api```
 
 7. ```npm install intl```
-
----
 
 ## :page_facing_up: Banco de Dados
 O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário aplicar o knex.
@@ -151,8 +139,6 @@ O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário 
     useNullAsDefault: true,
 ```
 
----
-
 ## :page_facing_up: Anotações
 ### Metodos HTTP:
  - **GET**: Buscar/Listar uma informação do back-end
@@ -175,7 +161,6 @@ O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário 
 ```javascript
     const body = request.body
 ```
----
 
 ### Formatação de Moedas
 - **ReactJS**:
@@ -200,6 +185,17 @@ O banco de dados utilizado na aplicação é o sqlite3, por isso é necessário 
             currency: 'BRL'
         }).format(incident.value)}
     ```
+    
+### :recycle: Como contribuir
+
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
+### :mortar_board: Quem ministrou?
+
+- As aulas foram ministradas pelo mestre Jedi [Diego Fernandes](https://github.com/diego3g).
 
 ## :memo: License
 
